@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>  
+    <div class="whether">
+       <div class="details">
+            <h1 id="temperature">86°</h1>
+            <h2 id="city">Anaheim,CA</h2>
+            <!-- <h2 id="country">CA</h2> -->
+        </div>
+        <div class="search">    
+            <input id="cityName" type="text" placeholder="Enter Your City">
+        </div>
+        <div class="search">    
+            <button id="btn" onclick="search()">search</button>
+        </div>
+    
+        <div class="bar">
+            <div class="box1"><p id="b1">minTemp</p>
+                <img height="100px" src="./image/sunny_sun_cloud_weather_cloudy_icon_194237.png" alt="">
+            </div>
+            <div class="box2"><p id="b2">maxTemp</p>
+                <img height="100px" src="./image/sunny_sun_cloud_weather_cloudy_icon_194237.png" alt="">
+            </div>
+            <div class="box3"><p id="b3">pressure</p>
+                <img height="100px" src="./image/sunny_sun_cloud_weather_cloudy_icon_194237.png" alt=""></div>
+            <div class="box4"><p id="b4">Humidity</p>
+                <img height="100px" src="./image/sunny_sun_cloud_weather_cloudy_icon_194237.png" alt=""></div>
+            <!-- <div class="box5"></div> -->
+        </div>
+        
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
